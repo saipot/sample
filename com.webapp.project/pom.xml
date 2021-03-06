@@ -129,12 +129,14 @@
 
 				</plugin>
 				<!-- https://mvnrepository.com/artifact/io.takari.nexus.plugins/takari-nexus-jenkins-plugin -->
-<dependency>
-    <groupId>io.takari.nexus.plugins</groupId>
-    <artifactId>takari-nexus-jenkins-plugin</artifactId>
-    <version>1.7.2</version>
+<!-- https://mvnrepository.com/artifact/org.sonatype.nexus/nexus-plugin-api -->
+<plugin>
+    <groupId>org.sonatype.nexus</groupId>
+    <artifactId>nexus-plugin-api</artifactId>
+    <version>3.30.0-01</version>
     <scope>provided</scope>
-</dependency>
+</plugin>
+
 
 				<plugin>
    <groupId>org.sonatype.plugins</groupId>
